@@ -1,0 +1,49 @@
+/* aclonica-regular - latin */
+@font-face {
+  font-family: 'Aclonica';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/aclonica-v10-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Aclonica Regular'), local('Aclonica-Regular'),
+       url('fonts/aclonica-v10-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/aclonica-v10-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/aclonica-v10-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('fonts/aclonica-v10-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/aclonica-v10-latin-regular.svg#Aclonica') format('svg'); /* Legacy iOS */
+}
+body
+{
+	background-color: #cddddd;
+	font-family: arial, helvetica, sans-serif;
+	color: #7a6c5d;
+}
+header, footer
+{
+	font-family: Aclonica;
+	color: #935fa7;
+}
+header
+{
+	font-size: 2em;
+}
+footer
+{
+	font-size: 1.2em;
+}
+nav a:hover
+{
+	font-weight: bold;
+}
+nav a:active
+{
+	text-decoration: none;
+}
+nav a:visited
+{
+	color: #935fa7;
+}
+.btn
+{
+	background-color:#909cc2;
+	color: #7a6c5d;
+}

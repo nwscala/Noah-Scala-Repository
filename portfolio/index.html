@@ -2,47 +2,133 @@
 <!--
 	Name: Noah Scala
 	Date Created: 10/16/2019
-	Most Recent Revision: 10/17/2019
+	Most Recent Revision: 10/22/2019
 -->
 <html lang="en">
 	<head>
 		<title>Noah Scala's Portfolio</title>
+		<link href="styles/main.css" rel="stylesheet" type="text/css" />
+		<style>
+			caption
+			{
+				font-weight: bold;
+				font-size: 1.2em;
+				margin-bottom: 8px;
+			}
+			table, th, td
+			{
+				border: 1px solid #0d1f2d;
+				border-collapse: collapse;
+				padding: 5px 10px;
+			}
+			table
+			{
+				width: 90%;
+				margin: auto;
+			}
+			tr
+			{
+				height: 30px;
+			}
+			th
+			{
+				background-color: #546a7b;
+				color: #f2eded;
+			}
+			tr:nth-child(odd)
+			{
+				background-color: #e4c3ad;
+			}
+		</style>
 	</head>
 	<main>
 		<body>
 			<header>
 				<h1>Portfolio for Noah Scala </h1>
 			</header>
-			<hr />
 			<nav>
 				<!-- We need to add links to projects.html, contact.html, and testimonials.html -->
+				<p><a href="index.html">Home</a></p>
 				<p><a href="projects.html">Projects</a></p>
-				<p><a href="contact.html">Contact</a></p>
+				<p><a href="contact.html">Contact Me</a></p>
 				<p><a href="testimonials.html">Testimonials</a></p>
+				<div class="clear-float"></div>
 			</nav>
-			<hr />
 			<section>
 				<article id="about-me">
 					<h2><em>About Me</em></h2>
-					<img src="images/portrait.JPG" alt="Portrait of Noah Scala" />
+					<img src="images/portrait.JPG" alt="Portrait of Noah Scala" width=250/>
 					<p>Sed nisi est, aliquam non gravida et, euismod id ex. Praesent molestie metus justo, <strong>non tristique nisl blandit id.</strong> Proin porta nisl eros, vitae laoreet eros vestibulum in. Integer faucibus malesuada purus quis consectetur.</p>
 					<p>Vivamus nec sollicitudin diam, at posuere augue. Nunc pulvinar <strong>imperdiet massa ut tincidunt.</strong> Pellentesque ac tincidunt metus, nec molestie magna.</p>
+					<div class="clear-float"></div>
 				</article>
 				<article id="past-experiences">
 					<h2><em>Past Experiences</em></h2>
-					<img src="images/isaac.JPG" alt="A picture of my cat, Isaac" />
-					<p>Pellentesque venenatis ligula vel sem porttitor vehicula. <span style= "background-color: lightblue; border: thin solid darkblue;">Fusce lectus nibh, sollicitudin ac turpis id, aliquet sodales tellus.</span> Vivamus scelerisque varius augue, a consequat dui efficitur sodales. Maecenas sed leo varius, fringilla magna in, semper est. Aliquam non elit quis nisi ornare volutpat sed id felis.</p>
-					<p>Aliquam semper urna in neque imperdiet, vel interdum sapien luctus. Morbi neque purus, volutpat eu odio at, varius malesuada purus. Sed nec auctor sem.</p>
+					<img src="images/isaac.JPG" alt="A picture of my cat, Isaac" width=250/>
+					<div class="right-content">
+						<table border="1">
+							<caption>Employment History</caption>
+							<thead>
+								<tr>
+									<th>Years of Employment</th>
+									<th>Title</th>
+									<th>Company</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>2015-2019</td>
+									<td>Student</td>
+									<td>University of Missouri-St.Louis</td>
+								</tr>
+								<tr>
+									<td>2014-2015</td>
+									<td>Cafeteria Staff</td>
+									<td>Gambrill Gardens</td>
+								</tr>
+							</tbody>
+							<tfoot>
+						
+							</tfoot>
+						</table>
+					</div>
+					<div class="clear-float"></div>
 				</article>
 				<article id="hobbies">
 					<h2><em>Hobbies</em></h2>
-					<img src="images/bird.jpg" alt="A picture of an intense cockatoo" />
-					<p>Proin posuere feugiat odio, in euismod enim scelerisque sit amet. Sed non volutpat nunc. Suspendisse potenti. Aenean ut diam scelerisque justo tempus fermentum. Quisque porta leo non laoreet ullamcorper. Sed dapibus urna sit amet arcu commodo gravida. Morbi dictum libero dui.</p>
-					<p>Fusce dignissim felis ultricies purus lobortis, non tristique urna ultrices. Curabitur ligula metus, mollis volutpat imperdiet eget, euismod ut purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus posuere sapien, id elementum ex mollis non.</p>
+					<img src="images/bird.jpg" alt="A picture of an intense cockatoo" width=250/>
+					<div class="right-content">
+						<ul>
+							<li>Animated Movies</li>
+								<ol>
+									<li>Porco Rosso</li>
+									<li>The Road to El Dorado</li>
+									<li>Up</li>
+								</ol>
+							<li>Video Games</li>
+								<ol>
+									<li>Terraria</li>
+									<li>Ar Nosurge</li>
+									<li>Dark Cloud 1 & 2</li>
+								</ol>
+							<li>Anime</li>
+								<ul>
+									<li>Cowboy Bebop</li>
+									<li>Sora No Woto</li>
+									<li>Ghost in the Shell: Stand Alone Complex</li>
+								</ul>
+							<li>Desserts</li>
+								<ul>
+									<li>Peach Cobbler</li>
+									<li>Bread Pudding</li>
+									<li>Zabaglione</li>
+								</ul>
+						</ul>
+					</div>
+					<div class="clear-float"></div>
 				</article>	
 			</section>	
 			<footer>
-				<hr />
 				<p>&copy; 2020 Noah Scala. All rights reserved.</p>
 			</footer>
 		</body>
